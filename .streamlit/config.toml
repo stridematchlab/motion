@@ -1,0 +1,27 @@
+[server]
+maxUploadSize = 200
+enableXsrfProtection = false
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#3b82f6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f9fafb"
+textColor = "#1f2937"
+font = "sans serif"
+```
+- **Commit changes**
+
+### 3. Vérifiez que votre structure ressemble à :
+```
+motion/
+├── .streamlit/          ← DOSSIER (pas fichier)
+│   └── config.toml
+├── README.md
+├── app.py
+├── packages.txt
+├── requirements.txt
+└── runtime.txt
